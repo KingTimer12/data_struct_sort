@@ -29,8 +29,8 @@ void BubbleSort::sort(int *vector, int *end) {
             }
         }
     }
-    
-    printf("Ordenação Bubble Sort concluída!\n\n");
+
+    printf("Ordenacao Bubble Sort concluida!\n\n");
     printf("Resultado final: ");
     Console::print(vector, end);
 }

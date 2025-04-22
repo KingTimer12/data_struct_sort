@@ -20,12 +20,12 @@ void insert(int *vector, int *pos) {
 void sorting(int* vector, int* end) {
     int key;
     Console::clean();
-    printf("Menu de Ordenação:\n");
+    printf("Menu de Ordenacao:\n");
     printf("1. Bubble Sort\n");
     printf("0. Voltar\n");
     printf("Digite o valor a ser inserido: ");
     scanf("%d", &key);
-    
+
     if (key == 1) BubbleSort::sort(vector, end);
     else if (key == 0) return;
     else printf("Opção inválida!\n");
@@ -34,7 +34,7 @@ void sorting(int* vector, int* end) {
 int main() {
     int opcao, end = 0;
     int vector[VECTOR_SIZE];
-    
+
     do {
         Console::clean();
         printf("Menu:\n");
@@ -42,9 +42,9 @@ int main() {
         printf("2. Imprimir\n");
         printf("3. Ordenar\n");
         printf("0. Sair\n");
-        printf("Opção: ");
+        printf("Opcao: ");
         scanf("%d", &opcao);
-        
+
         switch(opcao) {
             case 1:
                 insert(vector, &end);
@@ -58,11 +58,11 @@ int main() {
             case 0:
                 break;
             default:
-                printf("Opção inválida!\n");
+                printf("Opcao inválida!\n");
                 break;
         }
         if (opcao != 0) Console::pause();
     } while (opcao != 0);
-    
+
     return 0;
 }
