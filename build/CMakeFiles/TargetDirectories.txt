@@ -1,3 +1,0 @@
-D:/app/data_struct_sort/build/CMakeFiles/data_struct_sort.dir
-D:/app/data_struct_sort/build/CMakeFiles/ALL_BUILD.dir
-D:/app/data_struct_sort/build/CMakeFiles/ZERO_CHECK.dir
